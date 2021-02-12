@@ -1,0 +1,14 @@
+# inline-js-example
+
+
+* How to install inline-js
+it seems we have to follow
+https://input-output-hk.github.io/haskell.nix/tutorials/getting-started/
+
+
+
+* References
+
+- https://github.com/tweag/inline-js
+- https://www.tweag.io/blog/2019-05-09-inline-js/
+- https://github.com/JoeMShanahan/uber-proof
