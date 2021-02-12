@@ -11,9 +11,6 @@ build-type:          Simple
 cabal-version:       >=1.10
 
 
-source-repository head
-  type: git
-  location: https://github.com/tweag/inline-js
             
 library
   hs-source-dirs:      src
@@ -21,8 +18,10 @@ library
   exposed-modules:     InlineJsExample
   ghc-options:         -Wall -fno-warn-name-shadowing
   build-depends:       base >= 4.11 && < 5
-                     , inline-js
-                     , aeson   
+                     , html-conduit
+                     , http-conduit
+                     , text
+                     , xml-conduit      
 
 executable inline-js-example
   main-is:            Main.hs

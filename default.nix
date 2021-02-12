@@ -8,7 +8,6 @@ let
 
   myHaskellPackages = pkgs.haskell.packages.${compiler}.override {
     overrides = hself: hsuper: {
-      inline-js = (import sources.inline-js { });
       "inline-js-example" =
         hself.callCabal2nix "inline-js-example" (gitignore ./.) { };
     };
